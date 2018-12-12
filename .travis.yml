@@ -103,7 +103,7 @@ jobs:
     - stage: test
       env: CHECK=disk PYTHON3=true
     - stage: test
-      env: CHECK=dns_check
+      env: CHECK=dns_check PYTHON3=true
     - stage: test
       env: CHECK=dotnetclr
     - stage: test
